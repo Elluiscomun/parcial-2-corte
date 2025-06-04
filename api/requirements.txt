@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pika
+python-multipart
+python-jose[cryptography]
+passlib
+bcrypt
+flask
