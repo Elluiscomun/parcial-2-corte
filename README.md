@@ -150,9 +150,9 @@ curl -X POST -H "Content-Type: application/json" -d '{"content":"Hola mundo"}' h
 ### Monitorización
 
 - **RabbitMQ:**  
-  [http://localhost/monitor](http://localhost/monitor)  
+  [http://monitor.localhost/](http://monitor.localhost/)  
   Usuario: `guest` | Contraseña: `guest`
-
+![alt text](image-2.png)
 - **Traefik Dashboard:**  
   [http://localhost:8080/dashboard/](http://localhost:8080/dashboard/)
 
