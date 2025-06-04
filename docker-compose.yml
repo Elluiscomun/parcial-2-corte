@@ -46,6 +46,8 @@ services:
       - "traefik.http.routers.api.rule=PathPrefix(`/api`)"
       - "traefik.http.routers.api.service=api"
       - "traefik.http.services.api.loadbalancer.server.port=8000"
+      - "traefik.http.middlewares.auth.basicauth.users=admin:$$apr1$$dhfKKzDd$$1llfwmUPc7hQ3tbx3ypEw/"
+      - "traefik.http.routers.api.middlewares=auth"
     depends_on:
       - rabbitmq
     volumes:
