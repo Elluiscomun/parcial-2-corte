@@ -28,6 +28,7 @@ services:
       - "traefik.http.services.rabbitmq.loadbalancer.server.port=15672"
 
       - "traefik.http.middlewares.monitor-stripprefix.stripPrefix.prefixes=/monitor"
+      - "traefik.http.routers.rabbitmq.middlewares=monitor-stripprefix"
 
     ports:
       - "15672:15672"  # Puerto de gestión de RabbitMQ
