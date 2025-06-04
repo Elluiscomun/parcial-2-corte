@@ -157,3 +157,14 @@ curl -X POST -H "Content-Type: application/json" -d '{"content":"Hola mundo"}' h
   [http://localhost:8080/dashboard/](http://localhost:8080/dashboard/)
 
 ---
+
+
+### APIHEALD
+
+- **APIHEAD:**  
+  [http://localhost/api/health/](http://localhost/api/health)  
+
+usuario: admin
+contraseña: 123
+
+---
